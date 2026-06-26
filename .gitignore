@@ -61,3 +61,7 @@ Thumbs.db
 # Report (submitted separately)
 Algorithm Design Assignment Report.md
 Algorithm Design Assignment Report 2.md
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/workspace.json

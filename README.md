@@ -1,18 +1,15 @@
-# Algorithm Design — Assignment Solutions (Python)
-
+# Algorithm Design - Assignment Solutions (Python)
 Python implementations for **Algorithm Design** coursework at the University of Turku, based on *Algorithm Design* by Jon Kleinberg and Éva Tardos.
 
 > **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md`, `Algorithm Design Assignment Report 2.md`).
 
 ## Requirements
-
 - Python 3.8+
 - Most tasks: no third-party dependencies
 - Sympy tasks (Assignment 2, Q1/Q3/Q5/Q7): `./venv/bin/python3` after `pip install sympy`
 - Graph tasks (Assignment 1, Q5): `matplotlib`, `networkx` — use the project `venv`
 
 ## Repository structure
-
 ```
 Assignment_1/
   gale_shapley.py              # shared helpers for tasks 2 and 4
@@ -35,7 +32,6 @@ Assignment_2/
 ```
 
 ### Assignment 1
-
 | Task | Question | Script |
 |------|----------|--------|
 | 1 | Peripatetic Shipping Lines | `task 1/Peripatetic_Shipping_Lines.py` |
@@ -47,7 +43,6 @@ Assignment_2/
 | 7 | M″ construction proof | `task 7/same_stable_marriage_instance.py` |
 
 ### Assignment 2
-
 | Task | Question | Script |
 |------|----------|--------|
 | 1 | Big-O statement proofs (a–d) | `task 1/proof_statements.py` |
@@ -59,7 +54,6 @@ Assignment_2/
 | 7 | k ln k = Θ(n) proof | `task 7/lambert_verification.py` |
 
 ## Usage
-
 Run from the repository root:
 
 ```bash
@@ -83,10 +77,8 @@ python3 "Assignment_2/task 6/jar_dropping.py"
 ```
 
 ## References
-
 - Kleinberg, J. & Tardos, É. *Algorithm Design*. Pearson, 2006.
 - Gale, D. & Shapley, L. S. (1962). College admissions and the stability of marriage.
 
 ## Author
-
-Roosa Yöruusu — University of Turku
+Roosa Yöruusu - University of Turku
