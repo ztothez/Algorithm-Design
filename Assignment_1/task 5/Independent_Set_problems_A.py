@@ -1,3 +1,10 @@
+"""
+Independent Set on Interval Graphs - Assignment 1, Question 5a
+Algorithm Design by Jon Kleinberg and Éva Tardos
+
+Brute-force maximum independent set on an interval graph from the assignment figure.
+"""
+
 from itertools import combinations
 
 import matplotlib.pyplot as plt

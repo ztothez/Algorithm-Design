@@ -1,3 +1,10 @@
+"""
+Independent Set on Bipartite Graph - Assignment 1, Question 5b
+Algorithm Design by Jon Kleinberg and Éva Tardos
+
+Brute-force maximum independent set on the bipartite graph from the assignment figure.
+"""
+
 import itertools
 import matplotlib.pyplot as plt
 import networkx as nx

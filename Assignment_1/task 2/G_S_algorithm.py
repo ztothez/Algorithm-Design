@@ -1,30 +1,9 @@
-'''
-Question 2
+"""
+Gale–Shapley Algorithm - Assignment 1, Question 2
+Algorithm Design by Jon Kleinberg and Éva Tardos
 
-a) The G-S algorithm favoring men's preferences is executed resulting in a man-optimal matching $M$. The same algorithm is executed again for the same instance but now favoring the women's preferences resulting in a woman-optimal matching $M'$. Show that if $M = M'$, then this matching is the only possible stable matching.
-
-b) How many stable matchings there are for the given preference lists? Provide your solution with an explanation.
-
-Preference Tables
-
-Men's Preferences
-| $M_1$ | $M_2$ | $M_3$ | $M_4$ |
-| --- | --- | --- | --- |
-| $W_1$ | $W_1$ | $W_2$ | $W_4$ |
-| $W_2$ | $W_3$ | $W_1$ | $W_3$ |
-| $W_3$ | $W_2$ | $W_3$ | $W_1$ |
-| $W_4$ | $W_4$ | $W_4$ | $W_2$ |
-
-Women's Preferences
-| $W_1$ | $W_2$ | $W_3$ | $W_4$ |
-| --- | --- | --- | --- |
-| $M_4$ | $M_3$ | $M_3$ | $M_2$ |
-| $M_3$ | $M_4$ | $M_1$ | $M_1$ |
-| $M_1$ | $M_1$ | $M_4$ | $M_3$ |
-| $M_2$ | $M_2$ | $M_2$ | $M_4$ |
-'''
-
-#solve A and B using pythonTo solve the problem, we can implement the Gale-Shapley algorithm
+Man-optimal vs woman-optimal matchings; verify unique stable matching when M = M′.
+"""
 
 def gale_shapley(proposers_prefs, acceptors_prefs):
     """

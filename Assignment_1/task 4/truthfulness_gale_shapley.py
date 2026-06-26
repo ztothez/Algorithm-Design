@@ -1,8 +1,8 @@
 """
-Truthfulness in Gale–Shapley for Algorithm Design Assignment 1, Question 4.
+Truthfulness in Gale–Shapley - Assignment 1, Question 4
+Algorithm Design by Jon Kleinberg and Éva Tardos
 
-Counterexample: a woman on the receiving side improves her true outcome
-by swapping two low-ranked men on her reported preference list.
+Counterexample: a woman improves her outcome by misreporting preferences.
 """
 
 import sys

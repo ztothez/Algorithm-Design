@@ -1,3 +1,10 @@
+"""
+Weighted Independent Set on Interval Graphs - Assignment 1, Question 5c
+Algorithm Design by Jon Kleinberg and Éva Tardos
+
+Brute-force maximum-weight independent set on a weighted interval graph.
+"""
+
 from itertools import combinations
 import matplotlib.pyplot as plt
 import networkx as nx
