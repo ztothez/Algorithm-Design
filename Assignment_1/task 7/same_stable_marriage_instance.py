@@ -1,3 +1,10 @@
+"""
+Same Stable Marriage Instance - Assignment 1, Question 7
+Algorithm Design by Jon Kleinberg and Éva Tardos
+
+Construct M″ from M and M′; verify stability when women are proposers.
+"""
+
 def gale_shapley(proposers_prefs, acceptors_prefs):
     """Classic Gale-Shapley algorithm implementation."""
     free_proposers = list(proposers_prefs.keys())

@@ -1,3 +1,10 @@
+"""
+Search in Rotated Sorted Array - Assignment 1, Question 3
+Algorithm Design by Jon Kleinberg and Éva Tardos
+
+Binary search on a rotated sorted array (pivot find + two-pass search).
+"""
+
 S = (1, 2, 4, 6, 10, 11, 14, 19)
 S_rotated = (10, 11, 14, 19, 1, 2, 4, 6)
 
