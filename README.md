@@ -2,7 +2,7 @@
 
 Python implementations for **Algorithm Design** coursework at the University of Turku, based on *Algorithm Design* by Jon Kleinberg and Éva Tardos.
 
-> **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md`, `Algorithm Design Assignment Report 2.md`, `Algorithm Design Assignment Report 3.md`).
+> **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md` through `Algorithm Design Assignment Report 4.md`).
 
 ## Requirements
 
@@ -41,6 +41,15 @@ Assignment_3/
   task 5/  rumor_propagation.py
   task 6/  temporal_rumor_checker.py
   task 7/  judgment_consistency.py
+
+Assignment_4/
+  task 1/  interval_scheduling.py
+  task 2/  interval_partitioning_solutions.py
+  task 3/  disk_storage_optimizer.py
+  task 4/  gas_station_scheduler.py
+  task 5/  base_station_placement.py
+  task 6/  dijkstra_negative_edge_failures.py
+  task 7/  most_reliable_path.py
 ```
 
 ### Assignment 1
@@ -79,6 +88,18 @@ Assignment_3/
 | 6 | Temporal rumor propagation | `task 6/temporal_rumor_checker.py` |
 | 7 | Judgment consistency / odd cycles | `task 7/judgment_consistency.py` |
 
+### Assignment 4
+
+| Task | Question | Script |
+|------|----------|--------|
+| 1 | Latest-start-time interval scheduling | `task 1/interval_scheduling.py` |
+| 2 | Interval partitioning (a–c) | `task 2/interval_partitioning_solutions.py` |
+| 3 | Disk storage greedy (a prove, b disprove) | `task 3/disk_storage_optimizer.py` |
+| 4 | Gas pump waiting time (SPT) | `task 4/gas_station_scheduler.py` |
+| 5 | Base station placement (a & b) | `task 5/base_station_placement.py` |
+| 6 | Dijkstra negative-edge failures | `task 6/dijkstra_negative_edge_failures.py` |
+| 7 | Most reliable path (-ln + Dijkstra) | `task 7/most_reliable_path.py` |
+
 ## Usage
 
 Run from the repository root:
@@ -110,6 +131,15 @@ python3 "Assignment_3/task 4/count_shortest_paths.py"
 python3 "Assignment_3/task 5/rumor_propagation.py"
 python3 "Assignment_3/task 6/temporal_rumor_checker.py"
 python3 "Assignment_3/task 7/judgment_consistency.py"
+
+# Assignment 4
+python3 "Assignment_4/task 1/interval_scheduling.py"
+python3 "Assignment_4/task 2/interval_partitioning_solutions.py"
+python3 "Assignment_4/task 3/disk_storage_optimizer.py"
+python3 "Assignment_4/task 4/gas_station_scheduler.py"
+python3 "Assignment_4/task 5/base_station_placement.py"
+python3 "Assignment_4/task 6/dijkstra_negative_edge_failures.py"
+python3 "Assignment_4/task 7/most_reliable_path.py"
 ```
 
 ## References
