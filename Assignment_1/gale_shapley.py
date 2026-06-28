@@ -1,5 +1,5 @@
 """
-Gale–Shapley Helpers - Assignment 1
+Gale-Shapley Helpers - Assignment 1
 Algorithm Design by Jon Kleinberg and Éva Tardos
 
 Shared deferred-acceptance implementation for tasks 2 and 4.

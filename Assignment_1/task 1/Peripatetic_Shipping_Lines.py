@@ -93,7 +93,7 @@ def truncate_ship_schedules(ships_schedules):
 
 
 def truncate_ship_schedules_backtrack(ships_schedules):
-    """Exhaustive search — exponential, used only to validate small instances."""
+    """Exhaustive search - exponential, used only to validate small instances."""
     n = len(ships_schedules)
     m = len(ships_schedules[0])
     truncation_days = [None] * n

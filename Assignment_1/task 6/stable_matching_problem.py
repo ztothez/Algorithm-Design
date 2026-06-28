@@ -2,7 +2,7 @@
 Stable Matching Problem - Assignment 1, Question 6
 Algorithm Design by Jon Kleinberg and Éva Tardos
 
-Verify that man-optimal matching is woman-pessimal via Gale–Shapley on both sides.
+Verify that man-optimal matching is woman-pessimal via Gale-Shapley on both sides.
 """
 
 def gale_shapley(proposers_prefs, acceptors_prefs):

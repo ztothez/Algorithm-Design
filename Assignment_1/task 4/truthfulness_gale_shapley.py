@@ -1,5 +1,5 @@
 """
-Truthfulness in Gale–Shapley - Assignment 1, Question 4
+Truthfulness in Gale-Shapley - Assignment 1, Question 4
 Algorithm Design by Jon Kleinberg and Éva Tardos
 
 Counterexample: a woman improves her outcome by misreporting preferences.

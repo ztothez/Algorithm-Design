@@ -48,13 +48,13 @@ if __name__ == "__main__":
 
     programs_a = [40, 10, 20, 15, 30]
     chosen_a, used_a = maximize_program_count(programs_a, 50)
-    print(f"Part A — programs {programs_a}, capacity 50 GB")
+    print(f"Part A - programs {programs_a}, capacity 50 GB")
     print(f"  selected: {chosen_a}, count = {len(chosen_a)}, used = {used_a} GB")
 
     programs_b = [51, 50, 50]
     greedy_b, used_g = maximize_space_greedy_largest(programs_b, 100)
     optimal_b = maximize_space_optimal_dp(programs_b, 100)
-    print(f"\nPart B — programs {programs_b}, capacity 100 GB")
+    print(f"\nPart B - programs {programs_b}, capacity 100 GB")
     print(f"  largest-first uses: {used_g} GB")
     print(f"  optimal uses:       {optimal_b} GB")
     assert used_g < optimal_b

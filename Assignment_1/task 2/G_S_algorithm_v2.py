@@ -1,5 +1,5 @@
 """
-Gale–Shapley Algorithm - Assignment 1, Question 2
+Gale-Shapley Algorithm - Assignment 1, Question 2
 Algorithm Design by Jon Kleinberg and Éva Tardos
 
 Man-optimal vs woman-optimal matchings; count all stable matchings for the instance.

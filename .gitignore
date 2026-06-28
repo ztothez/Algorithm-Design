@@ -55,7 +55,7 @@ Thumbs.db
 /tmp/
 *.log
 
-# Course materials (local only — assignment PDFs, figures, exported reports)
+# Course materials (local only - assignment PDFs, figures, exported reports)
 *.pdf
 *.png
 *.jpg

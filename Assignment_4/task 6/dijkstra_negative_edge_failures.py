@@ -42,7 +42,7 @@ if __name__ == "__main__":
         "C": {},
     }
     res_1 = dijkstra(graph_1, "S")
-    print("Example 1 — premature finalization")
+    print("Example 1 - premature finalization")
     print(f"  Dijkstra distances: {res_1}")
     print(f"  True distance to C: 2")
     assert res_1["C"] == 3
@@ -53,7 +53,7 @@ if __name__ == "__main__":
         "B": {"A": -3},
     }
     res_2 = dijkstra(graph_2, "S")
-    print("\nExample 2 — negative cycle")
+    print("\nExample 2 - negative cycle")
     print(f"  Dijkstra distances: {res_2}")
     print(f"  True distance to A: -inf")
     assert res_2["A"] == 1

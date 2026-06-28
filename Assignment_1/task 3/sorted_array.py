@@ -37,7 +37,7 @@ def binary_search_range(arr, left, right, k):
 def search_rotated(arr, k):
   """
   Decide whether k exists in a rotated sorted array of distinct integers.
-  Time: O(log n) — pivot search plus one binary search.
+  Time: O(log n) - pivot search plus one binary search.
   """
   n = len(arr)
   if n == 0:

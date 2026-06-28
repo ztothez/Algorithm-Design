@@ -9,12 +9,12 @@ Python implementations for **Algorithm Design** coursework at the University of 
 - Python 3.8+
 - Most tasks use only the standard library
 - A few tasks need third-party packages (see `requirements.txt`):
-  - **sympy** — Assignment 2, tasks 1, 3, 5, 7
-  - **networkx**, **matplotlib** — Assignment 1, task 5; Assignment 3, tasks 2 and 3
+  - **sympy** - Assignment 2, tasks 1, 3, 5, 7
+  - **networkx**, **matplotlib** - Assignment 1, task 5; Assignment 3, tasks 2 and 3
 
 ## Setup
 
-The virtual environment is **local only** — `venv/` is in `.gitignore` and is not part of the repository.
+The virtual environment is **local only** - `venv/` is in `.gitignore` and is not part of the repository.
 
 From the repository root:
 
@@ -86,11 +86,11 @@ Assignment_4/
 
 | Task | Question                     | Script                               |
 | ---- | ---------------------------- | ------------------------------------ |
-| 1    | Big-O statement proofs (a–d) | `task 1/proof_statements.py`         |
+| 1    | Big-O statement proofs (a-d) | `task 1/proof_statements.py`         |
 | 2    | Matrix diagonal counting     | `task 2/two_dimensional.py`          |
-| 3    | Asymptotic relations (a–d)   | `task 3/rigorous.py`                 |
+| 3    | Asymptotic relations (a-d)   | `task 3/rigorous.py`                 |
 | 4    | Range sum matrix (a & b)     | `task 4/time_complexity_analysis.py` |
-| 5    | Sum/max rules (a–d)          | `task 5/asymptotic_rules.py`         |
+| 5    | Sum/max rules (a-d)          | `task 5/asymptotic_rules.py`         |
 | 6    | Glass jar dropping (a & b)   | `task 6/jar_dropping.py`             |
 | 7    | k ln k = Θ(n) proof          | `task 7/lambert_verification.py`     |
 
@@ -115,7 +115,7 @@ Assignment_4/
 | Task | Question                                  | Script                                      |
 | ---- | ----------------------------------------- | ------------------------------------------- |
 | 1    | Latest-start-time interval scheduling     | `task 1/interval_scheduling.py`             |
-| 2    | Interval partitioning (a–c)               | `task 2/interval_partitioning_solutions.py` |
+| 2    | Interval partitioning (a-c)               | `task 2/interval_partitioning_solutions.py` |
 | 3    | Disk storage greedy (a prove, b disprove) | `task 3/disk_storage_optimizer.py`          |
 | 4    | Gas pump waiting time (SPT)               | `task 4/gas_station_scheduler.py`           |
 | 5    | Base station placement (a & b)            | `task 5/base_station_placement.py`          |

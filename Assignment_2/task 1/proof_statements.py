@@ -2,7 +2,7 @@
 Big-O Statement Proofs - Assignment 2, Question 1
 Algorithm Design by Jon Kleinberg and Éva Tardos
 
-Verify truth of asymptotic statements (a–d) using sympy limits.
+Verify truth of asymptotic statements (a-d) using sympy limits.
 """
 
 import sympy as sp

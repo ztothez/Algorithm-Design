@@ -2,7 +2,7 @@
 Sum Equals Max Rules - Assignment 2, Question 5
 Algorithm Design by Jon Kleinberg and Éva Tardos
 
-Prove sum=max asymptotic rules (a–d) using sympy limit analysis.
+Prove sum=max asymptotic rules (a-d) using sympy limit analysis.
 """
 
 import sympy as sp
