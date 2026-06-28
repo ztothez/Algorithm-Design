@@ -7,9 +7,24 @@ Python implementations for **Algorithm Design** coursework at the University of 
 ## Requirements
 
 - Python 3.8+
-- Most tasks: no third-party dependencies
-- Sympy tasks (Assignment 2, Q1/Q3/Q5/Q7): `./venv/bin/python3` after `pip install sympy`
-- Graph tasks (Assignment 1 Q5; Assignment 3 Q2): `matplotlib`, `networkx` — use the project `venv`
+- Most tasks use only the standard library
+- A few tasks need third-party packages (see `requirements.txt`):
+  - **sympy** — Assignment 2, tasks 1, 3, 5, 7
+  - **networkx**, **matplotlib** — Assignment 1, task 5; Assignment 3, tasks 2 and 3
+
+## Setup
+
+The virtual environment is **local only** — `venv/` is in `.gitignore` and is not part of the repository.
+
+From the repository root:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate    # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+After activation, use `python3` for all scripts below. Without a venv, only stdlib-only scripts will run.
 
 ## Repository structure
 
@@ -20,7 +35,7 @@ Assignment_1/
   task 2/  G_S_algorithm_v2.py, G_S_algorithm.py
   task 3/  sorted_array.py
   task 4/  truthfulness_gale_shapley.py
-  task 5/  Independent_Set_problems_A.py, _B.py, _C.py + graph PNGs
+  task 5/  Independent_Set_problems_A.py, _B.py, _C.py
   task 6/  stable_matching_problem.py
   task 7/  same_stable_marriage_instance.py
 
@@ -102,7 +117,7 @@ Assignment_4/
 
 ## Usage
 
-Run from the repository root:
+Run from the repository root with the venv activated (`source venv/bin/activate`):
 
 ```bash
 # Assignment 1
@@ -110,23 +125,25 @@ python3 "Assignment_1/task 1/Peripatetic_Shipping_Lines.py"
 python3 "Assignment_1/task 2/G_S_algorithm_v2.py"
 python3 "Assignment_1/task 3/sorted_array.py"
 python3 "Assignment_1/task 4/truthfulness_gale_shapley.py"
-./venv/bin/python3 "Assignment_1/task 5/Independent_Set_problems_A.py"
+python3 "Assignment_1/task 5/Independent_Set_problems_A.py"
+python3 "Assignment_1/task 5/Independent_Set_problems_B.py"
+python3 "Assignment_1/task 5/Independent_Set_problems_C.py"
 python3 "Assignment_1/task 6/stable_matching_problem.py"
 python3 "Assignment_1/task 7/same_stable_marriage_instance.py"
 
 # Assignment 2
-./venv/bin/python3 "Assignment_2/task 1/proof_statements.py"
+python3 "Assignment_2/task 1/proof_statements.py"
 python3 "Assignment_2/task 2/two_dimensional.py"
-./venv/bin/python3 "Assignment_2/task 3/rigorous.py"
+python3 "Assignment_2/task 3/rigorous.py"
 python3 "Assignment_2/task 4/time_complexity_analysis.py"
-./venv/bin/python3 "Assignment_2/task 5/asymptotic_rules.py"
+python3 "Assignment_2/task 5/asymptotic_rules.py"
 python3 "Assignment_2/task 6/jar_dropping.py"
-./venv/bin/python3 "Assignment_2/task 7/lambert_verification.py"
+python3 "Assignment_2/task 7/lambert_verification.py"
 
 # Assignment 3
 python3 "Assignment_3/task 1/topological_orderings.py"
-./venv/bin/python3 "Assignment_3/task 2/planar_bounds.py"
-./venv/bin/python3 "Assignment_3/task 3/subgraph_edge_count.py"
+python3 "Assignment_3/task 2/planar_bounds.py"
+python3 "Assignment_3/task 3/subgraph_edge_count.py"
 python3 "Assignment_3/task 4/count_shortest_paths.py"
 python3 "Assignment_3/task 5/rumor_propagation.py"
 python3 "Assignment_3/task 6/temporal_rumor_checker.py"
