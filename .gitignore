@@ -55,8 +55,14 @@ Thumbs.db
 /tmp/
 *.log
 
-# Course materials
+# Course materials (local only — assignment PDFs, figures, exported reports)
 *.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
 
 # Report (submitted separately)
 Algorithm Design Assignment Report.md
