@@ -69,51 +69,59 @@ Assignment_4/
 
 ### Assignment 1
 
-| Task | Question | Script |
-|------|----------|--------|
-| 1 | Peripatetic Shipping Lines | `task 1/Peripatetic_Shipping_Lines.py` |
-| 2 | G-S algorithm (parts a & b) | `task 2/G_S_algorithm_v2.py` |
-| 3 | Rotated sorted array search | `task 3/sorted_array.py` |
-| 4 | Truthfulness in G-S | `task 4/truthfulness_gale_shapley.py` |
-| 5 | Independent Set encodings (a, b, c) | `task 5/Independent_Set_problems_*.py` |
-| 6 | Stable matching lemma | `task 6/stable_matching_problem.py` |
-| 7 | M″ construction proof | `task 7/same_stable_marriage_instance.py` |
+
+| Task | Question                            | Script                                    |
+| ---- | ----------------------------------- | ----------------------------------------- |
+| 1    | Peripatetic Shipping Lines          | `task 1/Peripatetic_Shipping_Lines.py`    |
+| 2    | G-S algorithm (parts a & b)         | `task 2/G_S_algorithm_v2.py`              |
+| 3    | Rotated sorted array search         | `task 3/sorted_array.py`                  |
+| 4    | Truthfulness in G-S                 | `task 4/truthfulness_gale_shapley.py`     |
+| 5    | Independent Set encodings (a, b, c) | `task 5/Independent_Set_problems_*.py`    |
+| 6    | Stable matching lemma               | `task 6/stable_matching_problem.py`       |
+| 7    | M″ construction proof               | `task 7/same_stable_marriage_instance.py` |
+
 
 ### Assignment 2
 
-| Task | Question | Script |
-|------|----------|--------|
-| 1 | Big-O statement proofs (a–d) | `task 1/proof_statements.py` |
-| 2 | Matrix diagonal counting | `task 2/two_dimensional.py` |
-| 3 | Asymptotic relations (a–d) | `task 3/rigorous.py` |
-| 4 | Range sum matrix (a & b) | `task 4/time_complexity_analysis.py` |
-| 5 | Sum/max rules (a–d) | `task 5/asymptotic_rules.py` |
-| 6 | Glass jar dropping (a & b) | `task 6/jar_dropping.py` |
-| 7 | k ln k = Θ(n) proof | `task 7/lambert_verification.py` |
+
+| Task | Question                     | Script                               |
+| ---- | ---------------------------- | ------------------------------------ |
+| 1    | Big-O statement proofs (a–d) | `task 1/proof_statements.py`         |
+| 2    | Matrix diagonal counting     | `task 2/two_dimensional.py`          |
+| 3    | Asymptotic relations (a–d)   | `task 3/rigorous.py`                 |
+| 4    | Range sum matrix (a & b)     | `task 4/time_complexity_analysis.py` |
+| 5    | Sum/max rules (a–d)          | `task 5/asymptotic_rules.py`         |
+| 6    | Glass jar dropping (a & b)   | `task 6/jar_dropping.py`             |
+| 7    | k ln k = Θ(n) proof          | `task 7/lambert_verification.py`     |
+
 
 ### Assignment 3
 
-| Task | Question | Script |
-|------|----------|--------|
-| 1 | Topological orderings (graphs a & b) | `task 1/topological_orderings.py` |
-| 2 | Planar graph edge bound (E <= 3V - 6) | `task 2/planar_bounds.py` |
-| 3 | Vertex-deleted subgraph edge formula | `task 3/subgraph_edge_count.py` |
-| 4 | Count shortest paths (BFS) | `task 4/count_shortest_paths.py` |
-| 5 | Rumor propagation (undirected) | `task 5/rumor_propagation.py` |
-| 6 | Temporal rumor propagation | `task 6/temporal_rumor_checker.py` |
-| 7 | Judgment consistency / odd cycles | `task 7/judgment_consistency.py` |
+
+| Task | Question                              | Script                             |
+| ---- | ------------------------------------- | ---------------------------------- |
+| 1    | Topological orderings (graphs a & b)  | `task 1/topological_orderings.py`  |
+| 2    | Planar graph edge bound (E <= 3V - 6) | `task 2/planar_bounds.py`          |
+| 3    | Vertex-deleted subgraph edge formula  | `task 3/subgraph_edge_count.py`    |
+| 4    | Count shortest paths (BFS)            | `task 4/count_shortest_paths.py`   |
+| 5    | Rumor propagation (undirected)        | `task 5/rumor_propagation.py`      |
+| 6    | Temporal rumor propagation            | `task 6/temporal_rumor_checker.py` |
+| 7    | Judgment consistency / odd cycles     | `task 7/judgment_consistency.py`   |
+
 
 ### Assignment 4
 
-| Task | Question | Script |
-|------|----------|--------|
-| 1 | Latest-start-time interval scheduling | `task 1/interval_scheduling.py` |
-| 2 | Interval partitioning (a–c) | `task 2/interval_partitioning_solutions.py` |
-| 3 | Disk storage greedy (a prove, b disprove) | `task 3/disk_storage_optimizer.py` |
-| 4 | Gas pump waiting time (SPT) | `task 4/gas_station_scheduler.py` |
-| 5 | Base station placement (a & b) | `task 5/base_station_placement.py` |
-| 6 | Dijkstra negative-edge failures | `task 6/dijkstra_negative_edge_failures.py` |
-| 7 | Most reliable path (-ln + Dijkstra) | `task 7/most_reliable_path.py` |
+
+| Task | Question                                  | Script                                      |
+| ---- | ----------------------------------------- | ------------------------------------------- |
+| 1    | Latest-start-time interval scheduling     | `task 1/interval_scheduling.py`             |
+| 2    | Interval partitioning (a–c)               | `task 2/interval_partitioning_solutions.py` |
+| 3    | Disk storage greedy (a prove, b disprove) | `task 3/disk_storage_optimizer.py`          |
+| 4    | Gas pump waiting time (SPT)               | `task 4/gas_station_scheduler.py`           |
+| 5    | Base station placement (a & b)            | `task 5/base_station_placement.py`          |
+| 6    | Dijkstra negative-edge failures           | `task 6/dijkstra_negative_edge_failures.py` |
+| 7    | Most reliable path (-ln + Dijkstra)       | `task 7/most_reliable_path.py`              |
+
 
 ## Usage
 
@@ -166,4 +174,4 @@ python3 "Assignment_4/task 7/most_reliable_path.py"
 
 ## Author
 
-Roosa Yöruusu — University of Turku
+Roosa Yöruusu - University of Turku
