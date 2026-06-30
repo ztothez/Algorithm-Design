@@ -2,7 +2,7 @@
 
 Python implementations for **Algorithm Design** coursework at the University of Turku, based on *Algorithm Design* by Jon Kleinberg and Éva Tardos.
 
-> **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md` through `Algorithm Design Assignment Report 4.md`).
+> **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md` through `Algorithm Design Assignment Report 5.md`).
 
 ## Requirements
 
@@ -10,7 +10,7 @@ Python implementations for **Algorithm Design** coursework at the University of 
 - Most tasks use only the standard library
 - A few tasks need third-party packages (see `requirements.txt`):
   - **sympy** - Assignment 2, tasks 1, 3, 5, 7
-  - **networkx**, **matplotlib** - Assignment 1, task 5; Assignment 3, tasks 2 and 3
+  - **networkx**, **matplotlib** - Assignment 1, task 5; Assignment 3, tasks 2 and 3; Assignment 5, tasks 3 and 7
 
 ## Setup
 
@@ -65,6 +65,15 @@ Assignment_4/
   task 5/  base_station_placement.py
   task 6/  dijkstra_negative_edge_failures.py
   task 7/  most_reliable_path.py
+
+Assignment_5/
+  task 1/  robust_network_counterexample.py
+  task 2/  havel_hakimi_verifier.py
+  task 3/  graph_properties_verifier.py
+  task 4/  linear_kruskal.py
+  task 5/  near_tree_mst.py
+  task 6/  cache_simulator.py
+  task 7/  mst_stability.py
 ```
 
 ### Assignment 1
@@ -123,6 +132,20 @@ Assignment_4/
 | 7    | Most reliable path (-ln + Dijkstra)       | `task 7/most_reliable_path.py`              |
 
 
+### Assignment 5
+
+
+| Task | Question                                  | Script                                      |
+| ---- | ----------------------------------------- | ------------------------------------------- |
+| 1    | Robust network (disprove engineer algo)   | `task 1/robust_network_counterexample.py`   |
+| 2    | Havel-Hakimi graphical sequences (a & b)  | `task 2/havel_hakimi_verifier.py`           |
+| 3    | Unique MST + component edge bound         | `task 3/graph_properties_verifier.py`       |
+| 4    | Linear-time Kruskal (integer weights)     | `task 4/linear_kruskal.py`                  |
+| 5    | Near-tree MST in O(n)                     | `task 5/near_tree_mst.py`                   |
+| 6    | LRU vs Farthest-in-Future cache (a-c)     | `task 6/cache_simulator.py`                 |
+| 7    | MST stable after edge weight decrease     | `task 7/mst_stability.py`                   |
+
+
 ## Usage
 
 Run from the repository root with the venv activated (`source venv/bin/activate`):
@@ -165,6 +188,15 @@ python3 "Assignment_4/task 4/gas_station_scheduler.py"
 python3 "Assignment_4/task 5/base_station_placement.py"
 python3 "Assignment_4/task 6/dijkstra_negative_edge_failures.py"
 python3 "Assignment_4/task 7/most_reliable_path.py"
+
+# Assignment 5
+python3 "Assignment_5/task 1/robust_network_counterexample.py"
+python3 "Assignment_5/task 2/havel_hakimi_verifier.py"
+python3 "Assignment_5/task 3/graph_properties_verifier.py"
+python3 "Assignment_5/task 4/linear_kruskal.py"
+python3 "Assignment_5/task 5/near_tree_mst.py"
+python3 "Assignment_5/task 6/cache_simulator.py"
+python3 "Assignment_5/task 7/mst_stability.py"
 ```
 
 ## References
