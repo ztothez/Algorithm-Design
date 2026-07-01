@@ -2,7 +2,7 @@
 
 Python implementations for **Algorithm Design** coursework at the University of Turku, based on *Algorithm Design* by Jon Kleinberg and Éva Tardos.
 
-> **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md` through `Algorithm Design Assignment Report 5.md`).
+> **Note:** Written proofs and full assignment reports are kept locally (`Algorithm Design Assignment Report.md` through `Algorithm Design Assignment Report 6.md`).
 
 ## Requirements
 
@@ -74,6 +74,15 @@ Assignment_5/
   task 5/  near_tree_mst.py
   task 6/  cache_simulator.py
   task 7/  mst_stability.py
+
+Assignment_6/
+  task 1/  strassen_recurrence.py
+  task 2/  master_theorem_verifier.py
+  task 3/  recursive_multiply.py
+  task 4/  recurrence_selector.py
+  task 5/  grid_local_minimum.py
+  task 6/  significant_inversions.py
+  task 7/  fractional_recurrence.py
 ```
 
 ### Assignment 1
@@ -146,6 +155,20 @@ Assignment_5/
 | 7    | MST stable after edge weight decrease     | `task 7/mst_stability.py`                   |
 
 
+### Assignment 6
+
+
+| Task | Question                                  | Script                                |
+| ---- | ----------------------------------------- | ------------------------------------- |
+| 1    | Matrix multiply + Strassen recurrence     | `task 1/strassen_recurrence.py`       |
+| 2    | Master Theorem (a-d)                      | `task 2/master_theorem_verifier.py`   |
+| 3    | Recursive-Multiply (1001 x 110)           | `task 3/recursive_multiply.py`        |
+| 4    | Compare algorithms A, B, C                | `task 4/recurrence_selector.py`       |
+| 5    | Grid local minimum in O(n) probes         | `task 5/grid_local_minimum.py`        |
+| 6    | Significant inversions O(n log n)         | `task 6/significant_inversions.py`    |
+| 7    | T(n^(1/3)) + O(1) bound                   | `task 7/fractional_recurrence.py`     |
+
+
 ## Usage
 
 Run from the repository root with the venv activated (`source venv/bin/activate`):
@@ -197,6 +220,15 @@ python3 "Assignment_5/task 4/linear_kruskal.py"
 python3 "Assignment_5/task 5/near_tree_mst.py"
 python3 "Assignment_5/task 6/cache_simulator.py"
 python3 "Assignment_5/task 7/mst_stability.py"
+
+# Assignment 6
+python3 "Assignment_6/task 1/strassen_recurrence.py"
+python3 "Assignment_6/task 2/master_theorem_verifier.py"
+python3 "Assignment_6/task 3/recursive_multiply.py"
+python3 "Assignment_6/task 4/recurrence_selector.py"
+python3 "Assignment_6/task 5/grid_local_minimum.py"
+python3 "Assignment_6/task 6/significant_inversions.py"
+python3 "Assignment_6/task 7/fractional_recurrence.py"
 ```
 
 ## References
